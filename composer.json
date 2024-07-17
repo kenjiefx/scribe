@@ -1,0 +1,23 @@
+{
+    "name": "kenjiefx/scribe",
+    "description": "A package manager built exclusively for applications within the Kenjiefx",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kenjiefx\\Scribe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rom Terrado",
+            "email": "terradoflex@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^5.6@dev",
+        "league/container": "4.x-dev",
+        "symfony/console": "6.3.x-dev"
+    }
+}

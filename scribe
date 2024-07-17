@@ -1,0 +1,9 @@
+#!/usr/bin/php
+<?php
+use Kenjiefx\Scribe\App;
+
+define('ROOT',__DIR__);
+require 'vendor/autoload.php';
+
+$App = new App();
+$App->run();

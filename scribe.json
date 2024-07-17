@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "github:kryptolib/identity-authority": {
+            "pull": {
+                "./src/app/registry": "./theme/argon/identity-authority"
+            }
+        }
+    }
+}
