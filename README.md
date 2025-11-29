@@ -1,2 +1,3 @@
 # scribe
-It pulls objects from other repositories
+
+It is not a package manager, it just pulls files from your private repositories.

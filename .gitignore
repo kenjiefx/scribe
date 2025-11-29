@@ -1,8 +1,2 @@
 /vendor/
 /.env
-/test.php
-/test/
-/scribe.lib.json
-/src/Cache/.cache/*
-!/src/Cache/.cache/README.md
-/src/Pullers/tmp.zip
