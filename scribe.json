@@ -1,8 +1,13 @@
 {
-  "dependencies": {
-    "github:kryptolib/identity-authority": {
-      "pull": {
-        "./src/app/registry": "./theme/argon/identity-authority"
+  "sources": {
+    "kryptolib/identity-authority": {
+      "platform": "github",
+      "owner": "kryptolib",
+      "repository": "kernel",
+      "release": "v1.0.0",
+      "pulls": {
+        "./tsconfig.json": "./output/singlefile/conf.json",
+        "./src/app/upload": "./output/dir"
       }
     }
   }
