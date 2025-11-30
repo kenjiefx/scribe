@@ -20,7 +20,8 @@
     "league/container": "4.x-dev",
     "symfony/console": "6.3.x-dev",
     "symfony/filesystem": "7.4.x-dev",
-    "symfony/finder": "7.4.x-dev"
+    "symfony/finder": "7.4.x-dev",
+    "symfony/dotenv": "6.4.x-dev"
   },
   "require-dev": {
     "phpunit/phpunit": "^10"
