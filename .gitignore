@@ -1,2 +1,4 @@
 /vendor/
 /.env
+/output/
+/.phpunit.result.cache
