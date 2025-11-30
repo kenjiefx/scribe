@@ -25,17 +25,8 @@ class PullUseCase
         $pullMapper = $this->pullMapper;
         $this->pullService->pull($sources, function (SourceModel $source, string $file) use ($sources, $pullMapper) {
             $pullMapper->map($source, $file, function (PullModel $pull, string $content) {
-                $destinationPath = $pull->getFullToPath();
-                $this->makeDirIfNotExists(dirname($destinationPath));
-                $this->fileManager->createFile($destinationPath, $content);
+                $this->fileManager->createFile($pull->getFullToPath(), $content);
             });
         });
-    }
-
-    public function makeDirIfNotExists(string $path): void
-    {
-        if (!is_dir($path)) {
-            mkdir($path, 0777, true);
-        }
     }
 }
